@@ -12,7 +12,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_WEATHER_APP_16DFA }}'
-          projectId: weather-app-16dfa
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_TODO_LIST_B03B4 }}'
+          projectId: todo-list-b03b4
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
