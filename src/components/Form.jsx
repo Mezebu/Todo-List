@@ -39,7 +39,7 @@ const Form = ({ input, setInput, todos, setTodos }) => {
               onChange={inputHandler}
             />
 
-            <label className="floatingInput">Todo List</label>
+            <label className="floatingInput">New todo</label>
           </div>
 
           <button type="submit" className="btn btn-outline-success">
